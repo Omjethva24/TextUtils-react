@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Form from './components/Form'
@@ -19,6 +18,7 @@ function App() {
   {/* <Router> */}
     <Navbar title="om" mode={mode} value="Enter some text here....." />
     <Form/>
+   
    {/* <Routes>
         <Route  path="/" element={<Form />} />
         <Route  path="/home" element={<Form />} />

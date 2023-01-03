@@ -11,7 +11,7 @@ export default function Form() {
         setText(newtext)
     }
     const newLine = () => {
-        let newtext = text.replace(".",".\n")
+        let newtext = text.replaceAll(".",".\n")
         setText(newtext)
         
     }
@@ -41,7 +41,7 @@ export default function Form() {
 
         <h1 className='text-center'>TextUtils</h1>
         <textarea name="" value={text}  id="textt" cols="25" rows="15" className='form-control' onChange={onchangee}></textarea>
-        <p>Character: {text.length} Words: {text.split(" ").filter((ele)=>{return ele.length!==0}).length} 
+        <p>Character: {text.replace(/\s+/g,"").length} Words: {text.split(" ").filter((ele)=>{return ele.length!==0}).length} 
             
         </p>
         <button className='btn btn-primary my-3 mx-3' onClick={changetoup} >Change to UpperCase</button>

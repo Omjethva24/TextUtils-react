@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#footer {
+  height: 25rem;
+  width: 100vw;
+  background-color: #434343;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+  font-family: monospace;
+}
+
+#footer .author-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .author-photo .aupho {
+  border-radius: 450%;
+  width: 18rem;
+  border: 1px solid white;
+}
+
+#footer .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-family: monospace;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  white-space: pre;
+  gap: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#footer .footer-text .footer-h1 {
+  font-size: 3rem;
+}
+
+#footer .footer-text .footer-d1 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+#footer .footer-text .footer-d2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+#footer .footer-text .social-ic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1rem;
+}
+
+#footer .footer-text .social-ic .sm-icon {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  width: 3rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
